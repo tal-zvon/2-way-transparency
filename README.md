@@ -2,6 +2,7 @@
 How to use a single public IP on multiple devices
 
 Note: See Diagram for reference
+Note 2: This assumes that Pi 1 is running 2 services - one on port 8081, and one on port 8082. If anyone tries to hit 1.1.1.2 from the internet on those 2 ports, they'll be talking to Pi 1. If they hit any other port, they'll be talking to the customer router
 
 Generic Steps:
 
