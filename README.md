@@ -1,9 +1,8 @@
 # 2-way-transparency
 Use a single public IP on multiple devices
 
-Configure Static IPs on both Pis
-
-Enable routing on both Pis (echo 1 > /proc/sys/net/ipv4/ip_forward)
+* Configure Static IPs on both Pis
+* Enable routing on both Pis (echo 1 > /proc/sys/net/ipv4/ip_forward)
 
 Pi 1:
 
